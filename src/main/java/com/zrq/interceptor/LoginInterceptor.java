@@ -7,9 +7,6 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by zrq on 2018-4-26.
- */
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
     @Override

@@ -11,9 +11,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
-/**
- * Created by zrq on 2018-5-12.
- */
 @Service
 public class AdminService {
     @Autowired

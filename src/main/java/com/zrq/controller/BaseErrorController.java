@@ -4,9 +4,6 @@ import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-/**
- * Created by zrq on 2018-5-2.
- */
 @Controller
 @RequestMapping("error")
 public class BaseErrorController implements ErrorController{

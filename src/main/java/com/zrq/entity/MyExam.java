@@ -1,10 +1,5 @@
 package com.zrq.entity;
 
-import com.zrq.entity.examinee.Examinee;
-
-/**
- * Created by zrq on 2018-5-2.
- */
 public class MyExam {
     private Integer id;
     private User user;

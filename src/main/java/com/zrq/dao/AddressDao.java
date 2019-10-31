@@ -4,9 +4,6 @@ import com.zrq.entity.Address;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
-/**
- * Created by zrq on 2018-5-14.
- */
 @Repository
 public interface AddressDao {
     /**

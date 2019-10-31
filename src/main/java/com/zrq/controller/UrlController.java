@@ -26,8 +26,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by zrq on 2018-4-18.
- *
  * 用于页面路径跳转
  */
 @SessionAttributes({"user"})

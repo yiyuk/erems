@@ -20,9 +20,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * Created by zrq on 2018-4-18.
- */
 @Controller
 @RequestMapping("/examinee")
 public class ExamineeController extends BaseController{

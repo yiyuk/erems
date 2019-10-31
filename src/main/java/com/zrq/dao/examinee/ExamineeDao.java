@@ -8,9 +8,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by zrq on 2018-4-18.
- */
 @Repository
 public interface ExamineeDao{
     /**

@@ -9,9 +9,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 
 import java.util.List;
 
-/**
- * Created by zrq on 2018-4-26.
- */
 //@Configuration
 public class WebInterceptorConfiguration extends WebMvcConfigurationSupport {
     @Value("${interceptor.path.exclude}")

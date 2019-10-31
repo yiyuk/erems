@@ -2,7 +2,6 @@ package com.zrq.entity;
 
 /**
  * 考点及考室结合地点及考室表
- * Created by zrq on 2018-5-12.
  */
 public class Room {
     private Integer id;

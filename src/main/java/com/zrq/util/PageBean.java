@@ -1,7 +1,6 @@
 package com.zrq.util;
 
 /**
- * Created by zrq on 2018-4-25.
  * 分页bean
  */
 

@@ -5,7 +5,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 
 /**
- * Created by zrq on 2018-4-25.
  * 考试类
  */
 public class Exam {

@@ -3,9 +3,6 @@ package com.zrq.util;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by zrq on 2018-5-8.
- */
 public class StringUtil {
     private static Pattern linePattern = Pattern.compile("-(\\w)");
     /**横线转驼峰*/

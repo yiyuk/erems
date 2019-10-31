@@ -15,9 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by zrq on 2018-4-25.
- */
 @Controller
 @RequestMapping("exam")
 public class ExamController extends BaseController{

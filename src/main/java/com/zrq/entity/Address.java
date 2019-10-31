@@ -2,7 +2,6 @@ package com.zrq.entity;
 
 /**
  * 地点数据已定好，只可以修改考室
- * Created by zrq on 2018-5-12.
  */
 public class Address {
     private Integer id;

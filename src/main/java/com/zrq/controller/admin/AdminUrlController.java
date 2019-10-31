@@ -15,9 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by zrq on 2018-4-21.
- */
 @Controller
 @RequestMapping("/admin")
 public class AdminUrlController {

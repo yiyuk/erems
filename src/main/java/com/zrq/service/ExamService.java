@@ -1,6 +1,5 @@
 package com.zrq.service;
 
-import com.github.pagehelper.PageHelper;
 import com.zrq.dao.ExamDao;
 import com.zrq.entity.Exam;
 import com.zrq.entity.Statistics;
@@ -10,9 +9,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by zrq on 2018-4-25.
- */
 @Service
 public class ExamService {
     @Autowired

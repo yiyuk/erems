@@ -1,8 +1,5 @@
 package com.zrq.entity;
 
-/**
- * Created by zrq on 2018-5-17.
- */
 public class Statistics {
     private Integer count;
     private Integer id;

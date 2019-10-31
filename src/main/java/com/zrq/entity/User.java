@@ -2,9 +2,6 @@ package com.zrq.entity;
 
 import org.springframework.stereotype.Component;
 
-/**
- * Created by zrq on 2018-4-18.
- */
 public class User {
     private Integer id;
     private String name;

@@ -9,9 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-/**
- * Created by zrq on 2018-5-12.
- */
 @Repository
 public interface AdminDao {
     /**
