@@ -1,8 +1,4 @@
----
-typora-copy-images-to: doc\resource
----
-
-# 考试报名及考务管理系统（EREMS）
+# 考试报名及考务管理系统
 
 ## 1.简介
 
@@ -44,54 +40,4 @@ IDE：IDEA
 
 ## 4.源代码运行
 
-### 1）配置java环境
-
-https://www.runoob.com/java/java-environment-setup.html
-
-### 2）安装Typora软件阅读MarkDown文件
-
-安装教程：https://jingyan.baidu.com/article/8ebacdf07c71f849f65cd5e5.html
-
-### 3）MySQL操作
-
-a.安装MySQL（window上安装，MySQL密码设置为123456，默认用户为root）：https://www.runoob.com/mysql/mysql-install.html
-
-b.使用MySQL的workbench工具新建数据库erems，并将doc下的erems.sql脚本导入数据库（图片顺序为操作顺序）：
-
-首先展开菜单栏选择import
-
-![1571109170017](.\doc\resource\1571109170017.png)
-
-接下来选择erems.sql的脚本位置，并使用new新建数据库
-
-![1571109305796](.\doc\resource\1571109305796.png)
-
-最后点击start import开始导入
-
-![1571109405606](.\doc\resource\1571109405606.png)
-
-当显示“1 of 1 imprted”时代表成功导入。
-
-### 4）安装IDEA导入项目
-
-安装教程：https://jingyan.baidu.com/article/afd8f4debd60f434e286e91f.html
-
-a.使用主界面的open按钮，打开代码文件的所在目录导入
-
-b.打开如图所在文件，右键显示菜单，点击运行项目
-
-![1571109636479](.\doc\resource\1571109636479.png)
-
-c.使用浏览器访问：`localhost:8088/erems/`，点击主页面的登录按钮，默认的用户名密码均为：admin，登录后显示下方页面
-
-![1571110424691](.\doc\resource\1571110424691.png)
-
-## 5.jar方式运行
-
-1）参见“源代码运行”步骤的前三点操作
-
-2）打开cmd命令行（win+R，输入cmd打开），切换到jar目录下
-
-`cd X:\XX\erems\doc\`(替换X为盘符和路径)
-
-命令行使用`jar -jar erems1.0.jar`运行代码，使用`localhost:8088/erems/`访问
+使用浏览器访问：`localhost:8088/erems/`
